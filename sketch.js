@@ -53,7 +53,7 @@ function preload(){
     }
 function setup(){
 
- createCanvas(900,580)
+ createCanvas(displayWidth,displayeight)
  background=createSprite(0,0,900,580)
  background.addImage(bgImg)
  background.scale=8 
