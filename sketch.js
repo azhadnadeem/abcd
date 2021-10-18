@@ -53,7 +53,7 @@ function preload(){
     }
 function setup(){
 
- createCanvas(displayWidth,displayHeight)
+ createCanvas(930,1200)
  background=createSprite(0,0,900,580)
  background.addImage(bgImg)
  background.scale=8 
@@ -138,7 +138,7 @@ function setup(){
     //fb.scale=0.5
 
     this.buttonf=createButton('FIRE')
-    this.buttonf.position(850,500)
+    this.buttonf.position(850,1150)
     this.buttonf.style('background','red')
 
     this.buttonu=createButton('UP')
