@@ -32,7 +32,7 @@ class Security {
 
         this.button1.mousePressed(() => {
         
-            if(system.authenticate(( bu=createSprite(500,350,30,30)) )){
+            if(system.authenticate(( bu=createSprite(500,330,30,30)) )){
                 //this.button1.hide();
                // this.access1.hide();
               // this.button1.scale=0.5

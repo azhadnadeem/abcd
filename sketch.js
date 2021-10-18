@@ -9,7 +9,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1000,500);
+  createCanvas(displayWidth,displayHeight);
   system = new System()
   security = new Security()
 
