@@ -9,7 +9,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(displayWidth,displayHeight);
+  createCanvas(displayWidth-20,displayHeight-150);
   system = new System()
   security = new Security()
 
@@ -24,17 +24,17 @@ function draw() {
   background("red");
   clues();
   security.display();
-  textSize(20);
-  fill("white");
-  text("Score: " + score, 450, 50);
+  //textSize(20);
+ // fill("white");
+  //text("Score: " + score, 450, 50);
 
-  if(score === 3) {
-    clear();
-    background(bg2)
-    fill("black")
-    textSize(40);
-    text("TREASURE UNLOCKED",250, 200);
-  }
+ // if(score === 3) {
+   // clear();
+    //background(bg2)
+    //fill("black")
+    //textSize(40);
+    //text("TREASURE UNLOCKED",250, 200);
+ // }
 
   drawSprites()
 }
