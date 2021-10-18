@@ -138,7 +138,7 @@ function setup(){
     //fb.scale=0.5
 
     this.buttonf=createButton('FIRE')
-    this.buttonf.position(850,1150)
+    this.buttonf.position(400,1150)
     this.buttonf.style('background','red')
 
     this.buttonu=createButton('UP')
